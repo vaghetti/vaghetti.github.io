@@ -4,8 +4,6 @@ date: 2022-02-20T13:05:41-03:00
 draft: false
 ---
 
-# Times are great for programmers now. How does it end?
-
 It is a good time to be in tech right now: soaring salaries, daily LinkedIn recruiter spam, people bootcamping their way into career switches to tech, remote work allowing you to work for a major tech company making triple digit salaries from the beach. It really feels like every single company is trying to recruit programmers nowadays, and doing whatever they can to get them.
 
 I’m certainly happy with the current state of affairs, but I can’t help but wonder: How does it end? Things are obviously good for us programmers and we would certainly like for them to stay this way.
