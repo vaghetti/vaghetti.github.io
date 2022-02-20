@@ -39,7 +39,7 @@ params:
   showtoc: false
   tocopen: false
   ShowFullTextInRSS: true
-
+  hideFooter: true
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -72,13 +72,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there"
-    Content: I'm Douglas Vaghetti, I write mostly programming and tech in general.
+    Content: I'm Douglas Vaghetti, I write about programming and tech in general.
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/ovaghetti"
     - name: github
       url: "https://github.com/vaghetti"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/douglas-vaghetti/"
     - name: "RSS"
       url: "/index.xml"
 
@@ -105,16 +107,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
 
 outputs:
   home:
