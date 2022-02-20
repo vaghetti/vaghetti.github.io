@@ -46,4 +46,4 @@ Many companies hiring now are unprofitable companies surviving on investor money
 
 This post might have sounded gloomish, at least for programmers, but honestly I don't think there's that much to worry about. Even if we enter some new dotcom bubble and a good chunk of our startup ecosystem dies off, demand for tech is spreading across all industries, businesses everywhere are digitizing their operations and these systems will need to be maintained somehow.
 
-Also, salaries are notoriously [sticky](https://www.investopedia.com/terms/s/sticky-wage-theory.asp), so instead of a salary reduction we could see a workforce reductions instead. Maybe it is better to start replying to the linkedin recruiter spam just in case?
+Also, salaries are notoriously [sticky](https://www.investopedia.com/terms/s/sticky-wage-theory.asp), so instead of a salary reduction we could see a workforce reduction instead. Maybe it is better to start replying to the linkedin recruiter spam just in case?
