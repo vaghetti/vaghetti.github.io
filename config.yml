@@ -26,13 +26,13 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: true
   hidemeta: false
   hideSummary: false
@@ -72,14 +72,14 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there"
-    Content: I'm Douglas, I write mostly about programming and tech in general.
+    Content: I'm Douglas Vaghetti, I write mostly programming and tech in general.
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/ovaghetti"
     - name: github
       url: "https://github.com/vaghetti"
-    - name: "rss"
+    - name: "RSS"
       url: "/index.xml"
 
   analytics:
