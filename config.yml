@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://vaghetti.github.io/"
 title: Douglas Vaghetti
 paginate: 5
 theme: PaperMod
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Douglas Vaghetti
+  description: "Personal blog"
   keywords: [Blog]
   author: Douglas Vaghetti
   # author: ["Me", "You"] # multiple authors
