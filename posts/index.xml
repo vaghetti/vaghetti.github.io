@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Douglas Vaghetti</title>
+    <link>https://vaghetti.github.io/posts/</link>
+    <description>Recent content in Posts on Douglas Vaghetti</description>
+    <image>
+      <url>https://vaghetti.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://vaghetti.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Feb 2022 13:05:41 -0300</lastBuildDate><atom:link href="https://vaghetti.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Times are great for programmers now. How does it end?</title>
+      <link>https://vaghetti.github.io/posts/times-are-great/</link>
+      <pubDate>Sun, 20 Feb 2022 13:05:41 -0300</pubDate>
+      
+      <guid>https://vaghetti.github.io/posts/times-are-great/</guid>
+      <description>Times are great for programmers now. How does it end? It is a good time to be in tech right now: soaring salaries, daily LinkedIn recruiter spam, people bootcamping their way into career switches to tech, remote work allowing you to work for a major tech company making triple digit salaries from the beach. It really feels like every single company is trying to recruit programmers nowadays, and doing whatever they can to get them.</description>
+    </item>
+    
+  </channel>
+</rss>
