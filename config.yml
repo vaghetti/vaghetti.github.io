@@ -1,4 +1,4 @@
-baseURL: "https://vaghetti.github.io/"
+baseURL: "https://vaghetti.dev/"
 title: Douglas Vaghetti
 paginate: 5
 theme: PaperMod
@@ -79,7 +79,7 @@ params:
     - name: github
       url: "https://github.com/vaghetti"
     - name: "rss"
-      url: "vaghetti.dev/index.xml"
+      url: "/index.xml"
 
   analytics:
     google:
