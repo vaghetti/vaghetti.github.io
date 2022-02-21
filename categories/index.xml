@@ -5,8 +5,8 @@
     <link>https://vaghetti.dev/categories/</link>
     <description>Recent content in Categories on Douglas Vaghetti</description>
     <image>
-      <url>https://vaghetti.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://vaghetti.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://vaghetti.dev/apple-touch-icon.png</url>
+      <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://vaghetti.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

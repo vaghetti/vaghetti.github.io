@@ -27,9 +27,9 @@
 <meta property="og:title" content="404 Page not found">
 <meta property="og:description" content="Personal blog">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://vaghetti.dev/404.html"><meta property="og:image" content="https://vaghetti.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="Douglas Vaghetti">
+<meta property="og:url" content="https://vaghetti.dev/404.html"><meta property="og:image" content="https://vaghetti.dev/apple-touch-icon.png"><meta property="og:site_name" content="Douglas Vaghetti">
 <meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://vaghetti.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:image content="https://vaghetti.dev/apple-touch-icon.png">
 <meta name=twitter:title content="404 Page not found">
 <meta name=twitter:description content="Personal blog">
 </head>
@@ -52,6 +52,9 @@
 <main class=main>
 <div class=not-found>404</div>
 </main>
+<footer class=footer>
+<h2>Wanna share your thoughts? <a href=/>Get in touch</a></h2>
+</footer>
 <script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 </body>
