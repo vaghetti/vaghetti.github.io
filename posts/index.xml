@@ -24,7 +24,7 @@ It is now part of my morning routine.</p>
 <p>Wordle is one of those ideas that just click and immediately have you wishing you were the one to have them.
 If you don&rsquo;t know what Wordle is, just click <a href="https://www.nytimes.com/games/wordle/">here</a> and play it.
 Give it a try, you&rsquo;ll probably like it. It won&rsquo;t take you more than 10 minutes.</p>
-<p>On a superficial level, there&rsquo;s nothing special about Wordle, every day, you everyone gets a 5 character word, you have to guess what it is.
+<p>On a superficial level, there&rsquo;s nothing special about Wordle, every day, everyone gets a 5 character word, you have to guess what it is.
 As you try, you get some information about what you got wrong that helps you move towards the correct answer. You only get 6 attempts.</p>
 <p>It is a very simple core mechanic, any programmer with some frontend knowledge could put together something similar in a few hours.</p>
 <p>What makes Wordle special is not the core mechanic itself, but the series of very intelligent decisions that were made around this very simple (but still fun) core mechanic.</p>
