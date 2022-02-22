@@ -30,7 +30,7 @@ Wordle was acquired by the New York Times some weeks ago, so I wouldn't expect i
 
 No ads is just icing on the cake, not having them is more a privilege of a game that doesn't need to make money than a true long term differentiator. There are other design decisions that make Wordle truly shine.
 
-## You play one word per day
+## One word per day
 
 There's one new word every day. Everyone gets the same word.
 
