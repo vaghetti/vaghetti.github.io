@@ -67,9 +67,9 @@ All you get is a message saying <em>&ldquo;Copied results to clipboard&rdquo;</e
 </ul>
 <p>Do this for a couple of days, and you&rsquo;re hooked. You don&rsquo;t even need Twitter to remind you about Wordle anymore.
 Some people in my feed play the new word every day after midnight.</p>
-<h2 id="takeaway">Takeaway</h2>
+<h2 id="wordle-and-senior-engineers">Wordle and senior engineers</h2>
 <p>Some people say the biggest difference between an engineer and a senior engineer is not on the code they write, but on the senior engineer ability to figure out ways to not write code.</p>
-<p>Wordle is a great example of how this looks like in practice. It avoids loads of complexity at design time, making lots of features unnecessary and still delivering a superior experience in the end.</p>
+<p>Wordle is a great example of how this looks like in practice. It avoids loads of complexity at design time, making many features unnecessary and still delivering a superior experience in the end.</p>
 <p>No login, just give users a satisfying end when they fail. No social media integration, some emojis they can paste anywhere clipboard will do. No ads, make something people like first, figure money out later. Add a tight social media reminders + leave users wanting more loop, and you have a hit.</p>
 ]]></content:encoded>
     </item>
