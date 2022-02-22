@@ -12,7 +12,7 @@ Wordle is one of those ideas that just click and immediately have you wishing yo
 If you don't know what Wordle is, just click [here](https://www.nytimes.com/games/wordle/) and play it.
 Give it a try, you'll probably like it. It won't take you more than 10 minutes.
 
-On a superficial level, there's nothing special about Wordle, every day, you everyone gets a 5 character word, you have to guess what it is.
+On a superficial level, there's nothing special about Wordle, every day, everyone gets a 5 character word, you have to guess what it is.
 As you try, you get some information about what you got wrong that helps you move towards the correct answer. You only get 6 attempts.
 
 It is a very simple core mechanic, any programmer with some frontend knowledge could put together something similar in a few hours.
