@@ -78,10 +78,10 @@ You can share it anywhere, it is just some emoji and text. There's not even an i
 Do this for a couple of days, and you're hooked. You don't even need Twitter to remind you about Wordle anymore.
 Some people in my feed play the new word every day after midnight.
 
-## Takeaway
+## Wordle and senior engineers
 
 Some people say the biggest difference between an engineer and a senior engineer is not on the code they write, but on the senior engineer ability to figure out ways to not write code.
 
-Wordle is a great example of how this looks like in practice. It avoids loads of complexity at design time, making lots of features unnecessary and still delivering a superior experience in the end.
+Wordle is a great example of how this looks like in practice. It avoids loads of complexity at design time, making many features unnecessary and still delivering a superior experience in the end.
 
 No login, just give users a satisfying end when they fail. No social media integration, some emojis they can paste anywhere clipboard will do. No ads, make something people like first, figure money out later. Add a tight social media reminders + leave users wanting more loop, and you have a hit.
