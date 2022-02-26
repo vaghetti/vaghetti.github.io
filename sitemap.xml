@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vaghetti.dev/posts/remote/</loc>
-    <lastmod>2022-02-24T20:23:11-03:00</lastmod>
+    <loc>https://vaghetti.dev/posts/joy/</loc>
+    <lastmod>2022-02-26T15:46:03-03:00</lastmod>
   </url><url>
     <loc>https://vaghetti.dev/</loc>
-    <lastmod>2022-02-24T20:23:11-03:00</lastmod>
+    <lastmod>2022-02-26T15:46:03-03:00</lastmod>
   </url><url>
     <loc>https://vaghetti.dev/posts/</loc>
+    <lastmod>2022-02-26T15:46:03-03:00</lastmod>
+  </url><url>
+    <loc>https://vaghetti.dev/posts/remote/</loc>
     <lastmod>2022-02-24T20:23:11-03:00</lastmod>
   </url><url>
     <loc>https://vaghetti.dev/posts/wordle/</loc>
