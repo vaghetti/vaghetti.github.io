@@ -9,7 +9,45 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Feb 2022 15:46:03 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Mar 2022 13:29:43 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tibia was wild in mostly bad ways. I really miss it.</title>
+      <link>https://vaghetti.dev/posts/tibia/</link>
+      <pubDate>Wed, 02 Mar 2022 13:29:43 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/tibia/</guid>
+      <description>Tibia is a 2D MMORPG released in 1997. It is one of the oldest MMOs still active. You can see their official screenshots page to get a sense of what it looks like. Tibia&amp;rsquo;s graphics improved since the game was released, but not much.
+Although the game was pretty solid technologically when it was released, it was quickly surpassed graphically in the following years. Even with dated graphics, Tibia&amp;rsquo;s popularity peaked in 2007.</description>
+      <content:encoded><![CDATA[<p>Tibia is a 2D MMORPG released in 1997. It is one of the oldest MMOs still active. You can see their <a href="https://www.tibia.com/abouttibia/?subtopic=screenshots">official screenshots</a> page to get a sense of what it looks like. Tibia&rsquo;s graphics improved since the game was released, but not much.</p>
+<p>Although the game was pretty solid technologically when it was released, it was quickly surpassed graphically in the following years. Even with dated graphics, Tibia&rsquo;s popularity peaked in 2007. For comparison, this is what World of Warcraft <a href="https://www.gamingcfg.com/screenshot/World-of-Warcraft-2007-8264">looked like in 2007</a>. So what was going on in 2007?</p>
+<p>Trough a mixture of cultural and technological reasons, Tibia was the only viable MMO option for lots of people in Brazil back then. By 2007, any PC could run it. It didn&rsquo;t require a very good internet connection and, most importantly, it 100% free to play. Check out their <a href="https://www.tibia.com/community/?subtopic=worlds">servers list</a>, almost half of the servers are in South America. I was one of these people in Brazil. Being their only option might get people to give the game a chance, but what was it that made them stay?</p>
+<h2 id="asking-players-to-do-boring-things-was-ok">Asking players to do boring things was ok</h2>
+<p>I&rsquo;m not talking about grinding here. Tibia has plenty of that too. I&rsquo;m talking about spending hours and hours hitting self-cloning slimes with weak weapons to improve your fighting ability. When you made it to higher levels, it could take hours to go up a single skill point, and this skill point would not even make much of a difference in the damage you dealt. We called it <em>training</em>.</p>
+<p>Mages were not exempt either, for a long time, Druids in Tibia would spend hours waiting for their mana to recharge to cast a cure spell in a rune so it could be used later in combat at no mana cost. That was it, really. You were supposed to just stand there and wait for your mana to recharge, only to create a rune and do the same thing over and over again.</p>
+<h2 id="frustrating-players-was-ok-too">Frustrating players was OK too</h2>
+<p>Tibia could also be incredibly punishing. Back then, when you died, you would lose 10% of your character&rsquo;s total experience. In earlier levels, that would mean you lost one level, sometimes not even a whole level. But in higher levels, you&rsquo;d lose multiple levels that took days or even months to recover.</p>
+<p>Death could happen anytime. Even if you were just hunting weak monsters or simply travelling from one place to another, players could attack you. There were no level restrictions. Anyone could kill you almost anywhere, anytime.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>For example, it was standard practice to kill players who didn&rsquo;t seem to be looking at their screen, and thus just idle. The game actively rewarded you for it. When you killed another player, you could take all the items they were carrying and, with some luck, even some equipment they had on. I still have not-fond-at-all memories of throwing my items in the water to destroy them just so my assassin wouldn&rsquo;t have them out of sheer spite.</p>
+<p>Check <a href="https://news.ycombinator.com/item?id=30324846">this</a> hacker news thread for some more old school Tibia reminiscing.</p>
+<h2 id="the-ability-to-inflict-psychological-pain">The ability to inflict (psychological) pain</h2>
+<p>With PVP anywhere and great punishment for death, higher level players and guilds could cause real pain to each other. That is <strong><em>power</em></strong> in its most raw shape! Strong guilds could rule their worlds through fear!</p>
+<p>Things could get wild in bigger servers. Powerful guilds would hunt players: Any member of the guild would kill the hunted player on sight or call for reinforcements. Sometimes guilds would have players guarding over the most sought after dungeons and demand money to use them. Yes, those were virtual gangs, with extortion, infighting, gang wars and all.</p>
+<h2 id="why-we-cant-have-old-tibia-anymore">Why we can&rsquo;t have old Tibia anymore</h2>
+<p>Times are different now. Players are not willing to deal with frustration like they were back then. Much of what made Tibia special were things that are generally regarded as bad game design nowadays.</p>
+<p>The game rewarded you for doing repetitive things with no real challenge. Players were punished to extreme extents due to completely silly things like being AFK or just being in the wrong place at the wrong time. Some high level player could simply decide they didn&rsquo;t like your clothes and <a href="https://tibia.fandom.com/wiki/Rooking">rook you</a>. If there&rsquo;s a word for it, there is a story behind it.</p>
+<p>I&rsquo;m not saying these changes are bad. If I was to start playing Tibia today without being influenced by nostalgia, I&rsquo;m sure I would quickly drop it without thinking much of it.</p>
+<p>Nonetheless, these game design decisions created a really unique virtual world that provided very meaningful experiences to a lot of people, like me. And I just can&rsquo;t shake off the feeling our lives are a tiny bit worse because that world is gone and it seems like it can&rsquo;t be created again.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This was only the case in PVP servers, players also had the choice of playing in non-PVP worlds if they chose to.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Developer tooling must spark joy</title>
       <link>https://vaghetti.dev/posts/joy/</link>
@@ -65,7 +103,7 @@ When writing, a diary is a great tool for organizing thoughts and making decisio
 <p>From things like investments and career management, all the way to politics and the ethics of eating meat, work colleagues exposed me to new ways of thinking. In many cases, I did not agree with their opinions, but they broadened my views in very useful ways nonetheless.</p>
 <p>After reading all the entries until remote work started, it became clear to me that these people were really making me smarter by osmosis. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h2 id="is-this-really-the-role-of-work-colleagues">Is this really the role of work colleagues?</h2>
-<p>There&rsquo;s a perfectly reasonable argument to be made that exposing you to new ways of thinking about factory farming or the Boggleheads subreddit is not really the role of work colleagues. I am sure some people will read all of this and say <em>&ldquo;Just get some friends!&quot;</em>.</p>
+<p>There&rsquo;s a perfectly reasonable argument to be made that exposing you to new ways of thinking about factory farming or the Boggleheads subreddit is not really the role of work colleagues. I am sure some people will read all of this and say <em>&ldquo;Just get some friends!&rdquo;</em>.</p>
 <p>I mostly agree. Work should be about work, and if that&rsquo;s all people want from work, they should definitely be able to get just that, without any sort of negative repercussion.</p>
 <p>But these lost relationships were valuable to me, and I&rsquo;m sure they were valuable to other people too. They&rsquo;re mostly gone with remote work.</p>
 <h2 id="building-meaningful-remote-relationships">Building meaningful remote relationships</h2>
@@ -127,13 +165,13 @@ You can&rsquo;t tryhard your way into victory.</p>
 <h2 id="sharing">Sharing</h2>
 <p>After you finish a Wordle match, you get a share button. If you click it, you don&rsquo;t get a list of supported social media websites or some twitter OAuth prompt.
 All you get is a message saying <em>&ldquo;Copied results to clipboard&rdquo;</em>. This is what mine for today&rsquo;s puzzle looks like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Wordle 248 4/6
-
-⬜🟨⬜🟨⬜
-🟨⬜⬜🟨⬜
-🟨🟨🟨🟨🟨
-🟩🟩🟩🟩🟩
-</code></pre></div><p>This is, again, smart on multiple levels.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Wordle 248 4/6
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>⬜🟨⬜🟨⬜
+</span></span><span style="display:flex;"><span>🟨⬜⬜🟨⬜
+</span></span><span style="display:flex;"><span>🟨🟨🟨🟨🟨
+</span></span><span style="display:flex;"><span>🟩🟩🟩🟩🟩
+</span></span></code></pre></div><p>This is, again, smart on multiple levels.</p>
 <p>It communicates how your game went in meaningful detail without spoiling the day&rsquo;s word for people who haven&rsquo;t played it yet. At the same time, people who already played today can immediately look at it and know you were struggling in the same ways, which can be pretty fun and engaging.</p>
 <p>It also brings players back into the game, but not in an annoying way like Farmville Facebook notifications. Shared Wordle games actively improve your experience by adding a social factor.</p>
 <p>You can share it anywhere, it is just some emoji and text. There&rsquo;s not even an image or hyperlink. Anywhere you can type, you can share your Wordle game.</p>
