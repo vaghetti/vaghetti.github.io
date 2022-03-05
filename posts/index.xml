@@ -11,18 +11,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 05 Mar 2022 14:34:37 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How did everyone&#39;s Youtube recommendations get so eerily specific?</title>
+      <title>How did everyone&#39;s YouTube recommendations get so eerily specific?</title>
       <link>https://vaghetti.dev/posts/nichecasual/</link>
       <pubDate>Sat, 05 Mar 2022 14:34:37 -0300</pubDate>
       
       <guid>https://vaghetti.dev/posts/nichecasual/</guid>
-      <description>Here&amp;rsquo;s a very 2020s experience: You get to a friend&amp;rsquo;s house for dinner. You start chatting about random things. You open a bottle of wine or something. &amp;ldquo;Hey let&amp;rsquo;s orders something for dinner, I&amp;rsquo;m starving&amp;rdquo;. Chaos ensues as everyone argues about what to order for 10-30 minutes. A compromise is reached eventually, food is on the way. Chatting continues. &amp;ldquo;Lets put on some music&amp;rdquo;. Your friend opens youtube on their Smart TV.</description>
-      <content:encoded><![CDATA[<p>Here&rsquo;s a very 2020s experience: You get to a friend&rsquo;s house for dinner. You start chatting about random things. You open a bottle of wine or something. <em>&ldquo;Hey let&rsquo;s orders something for dinner, I&rsquo;m starving&rdquo;</em>. Chaos ensues as everyone argues about what to order for 10-30 minutes. A compromise is reached eventually, food is on the way. Chatting continues. <em>&ldquo;Lets put on some music&rdquo;</em>. Your friend opens youtube on their Smart TV. <strong>You stare in awe at the television as their Youtube recommendations look like a door into a parallel universe</strong>. Music starts playing. The night goes on as usual.</p>
-<p>It wasn&rsquo;t always like this. I can&rsquo;t really pinpoint the exact point in time when Youtube recommendations became so good they became creepy. But I remember not too long ago everyone&rsquo;s Youtube home page looked kinda similar. People would subscribe to different channels, but things would generally fall into a normal distribution where the most people would watch mostly similar stuff.</p>
-<p>Don&rsquo;t get me wrong, there&rsquo;s always been very weird corners of Youtube, they just didn&rsquo;t get as much traffic. But as the content recommendation algorithms evolved, they brought to surface a fundamentally different kind of content:  Niche, casually consumed content.</p>
+      <description>Here&amp;rsquo;s a very 2020s experience: You get to a friend&amp;rsquo;s house for dinner. You start chatting about random things. You open a bottle of wine or something. &amp;ldquo;Hey let&amp;rsquo;s orders something for dinner, I&amp;rsquo;m starving&amp;rdquo;. Chaos ensues as everyone argues about what to order for 10-30 minutes. A compromise is reached eventually, food is on the way. Chatting continues. &amp;ldquo;Lets put on some music&amp;rdquo;. Your friend opens YouTube on their Smart TV.</description>
+      <content:encoded><![CDATA[<p>Here&rsquo;s a very 2020s experience: You get to a friend&rsquo;s house for dinner. You start chatting about random things. You open a bottle of wine or something. <em>&ldquo;Hey let&rsquo;s orders something for dinner, I&rsquo;m starving&rdquo;</em>. Chaos ensues as everyone argues about what to order for 10-30 minutes. A compromise is reached eventually, food is on the way. Chatting continues. <em>&ldquo;Lets put on some music&rdquo;</em>. Your friend opens YouTube on their Smart TV. <strong>You stare in awe at the television as their YouTube recommendations look like a door into a parallel universe</strong>. Music starts playing. The night goes on as usual.</p>
+<p>It wasn&rsquo;t always like this. I can&rsquo;t really pinpoint the exact point in time when YouTube recommendations became so good they became creepy. But I remember not too long ago everyone&rsquo;s YouTube home page looked kinda similar. People would subscribe to different channels, but things would generally fall into a normal distribution where the most people would watch mostly similar stuff.</p>
+<p>Don&rsquo;t get me wrong, there&rsquo;s always been very weird corners of YouTube, they just didn&rsquo;t get as much traffic. But as the content recommendation algorithms evolved, they brought to surface a fundamentally different kind of content:  Niche, casually consumed content.</p>
 <h2 id="consuming-with-intent-vs-consuming-casually">Consuming with intent vs consuming casually</h2>
-<p>You consume with intent when you know you want something. If you&rsquo;re a cyclist, you possibly search for cycling content on Youtube or even join cycling groups on Facebook. Intent means you&rsquo;re consciously interested in a certain topic.</p>
+<p>You consume with intent when you know you want something. If you&rsquo;re a cyclist, you possibly search for cycling content on YouTube or even join cycling groups on Facebook. Intent means you&rsquo;re consciously interested in a certain topic.</p>
 <p>Casual consumption happens the other way around. You turn on your TV and there&rsquo;s a cooking show on it. The recipes look tasty, the presenter is  charismatic, you know you&rsquo;re never gonna cook them, but it is entertaining nonetheless. You end up watching the show. You don&rsquo;t follow the show on Twitter or consider yourself a fan in any way. Sometimes, you&rsquo;re casually introduced to a certain topic, find out you like it, then start consuming it with intent.</p>
+<p>Here are some examples of the kinds of content that fit into these categories:
+<img loading="lazy" src="/nichecasual/nichecasual1.svg" alt="1st Diagram"  />
+</p>
 <h2 id="content-discovery">Content discovery</h2>
 <p>In the early days of the web, content discovery was pretty hard. You had to discover cool things on the internet <em>outside</em> the internet: Magazines, real people, tv shows, etc. It was awful. Eventually, things converged around three solutions for content discovery. I&rsquo;ll call them search, social and popularity ranking.</p>
 <p>When using search, you know what you&rsquo;re looking for, you type it in a text box, you get it. It might sound trivial nowadays, but there were loads of companies competing in this space back in the 90s. Google was the first one to really crack it and it turned out quite well for them. Search requires intent, you have to know you want something so you can search for it.</p>
@@ -30,59 +33,20 @@
 <p>Social is just getting recommendations from people you actually know, or at least  decided to follow. Think of things like early Facebook and Instagram. Both of these have mostly evolved into personal recommendations discovery mechanisms nowadays.</p>
 <h2 id="personal-recommendations">Personal recommendations</h2>
 <p>This is a fourth content discovery mechanism that only started to get really good more recently. The application that best represents it is TikTok. You open the app and you immediately face a stream of videos, depending on your interactions, the app will get better and better at showing you videos you&rsquo;ll like.</p>
-<p>The application (Youtube, TikTok, Instagram, etc) has a profile that is exclusive to you, with a history of the content you consumed in the past. This profile is then used to find other kinds of content you might also like. As you consume more content, your recommendations keep getting better.</p>
+<p>The application (YouTube, TikTok, Instagram, etc) has a profile that is exclusive to you, with a history of the content you consumed in the past. This profile is then used to find other kinds of content you might also like. As you consume more content, your recommendations keep getting better.</p>
 <p>Personal recommendations allow for a fundamentally different kind of content to be discovered and consumed: Content that users don&rsquo;t search for, because they only consume it casually, but is also too niche so it doesn&rsquo;t perform well on popularity rankings or gets shared on social media. I call it <em>niche casual</em> content.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Mass appeal</th>
-<th>Niche</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Consumed with intent</strong></td>
-<td>Search</td>
-<td>Search</td>
-</tr>
-<tr>
-<td><strong>Casually consumed</strong></td>
-<td>Popularity ranking, Social</td>
-<td>Personal recommendations</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th></th>
-<th><strong>Mass appeal</strong></th>
-<th><strong>Niche</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Consumed with intent</strong></td>
-<td>News, Sports, Mainstream music, Movie/TV trailers</td>
-<td>Technical material TutorialsHobbies</td>
-</tr>
-<tr>
-<td><strong>Casually consumed</strong></td>
-<td>Same as above but for things you didn&rsquo;t know about yet</td>
-<td>Old tools restoration, People building houses out of clay, Unclogging drains</td>
-</tr>
-</tbody>
-</table>
+<p>It looks like this in the diagram:
+<img loading="lazy" src="/nichecasual/nichecasual2.svg" alt="2nd Diagram"  />
+</p>
 <h2 id="too-niche-for-popularity-ranking-and-social-too-casual-for-search">Too niche for popularity ranking and social, too casual for search</h2>
-<p>Think about things like <a href="https://www.youtube.com/channel/UCsCNU-ptlze2tqAJSDeVGNQ">this guy</a> making videos unclogging drains. I can&rsquo;t imagine the 500k+ subs in this channel arrived there searching for this kind of content on Youtube or getting recommendations from social media. It also doesn&rsquo;t have enough mass appeal to make it to the home page of Reddit.</p>
+<p>Think about things like <a href="https://www.youtube.com/channel/UCsCNU-ptlze2tqAJSDeVGNQ">this guy</a> making videos unclogging drains. I can&rsquo;t imagine the 500k+ subs in this channel arrived there searching for this kind of content on YouTube or getting recommendations from social media. It also doesn&rsquo;t have enough mass appeal to make it to the home page of Reddit.</p>
 <p>Yet, with a robust enough recommendations system, this channel found more than half a million interested subscribers. The most watched video has more than 20M views!</p>
 <p>The same is true for other channels like this one for oddly pleasant <a href="https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw">tool restoration videos</a> or the also oddly pleasant <a href="https://www.youtube.com/watch?v=DEobiCzGEvE">videos of clay houses built by hand </a>.</p>
 <h2 id="the-future-of-casual-niche-content">The future of casual niche content</h2>
 <p>With a massive pool of users and a powerful enough recommendation engine, content creators just need to create content that is compelling for some group of people. The recommendation engine will make sure the content finds interested users.</p>
-<p>The incentives for content providers like Youtube and TikTok are quite clear. They want to keep you there consuming content for as long as possible so you see more ads. Improving their recommendation engines must always be a high priority for them.</p>
+<p>The incentives for content providers like YouTube and TikTok are quite clear. They want to keep you there consuming content for as long as possible so you see more ads. Improving their recommendation engines must always be a high priority for them.</p>
 <p>So how niche can casual content go? It depends mostly on two things: How good the recommendation engine is and how big the user base is. As long as these two things are increasing, content can get ever more niche and still find a big enough user base to be sustainably produced.</p>
-<p>I think we&rsquo;re just scratching the surface of casual niche content. People can have wildly different tastes and the demand for distraction is always high. I&rsquo;m personally excited and quite curious to see how weird my Youtube recommendations will get.</p>
+<p>I think we&rsquo;re just scratching the surface of casual niche content. This content category seems to be the one with the greatest potential of just being weird in entertaining ways. People can have wildly different tastes and the demand for distraction is always high. I&rsquo;m personally excited and quite curious to see how weird my YouTube recommendations will get.</p>
 ]]></content:encoded>
     </item>
     
