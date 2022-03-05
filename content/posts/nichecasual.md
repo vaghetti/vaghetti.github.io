@@ -20,7 +20,7 @@ Casual consumption happens the other way around. You turn on your TV and there's
 
 In the early days of the web, content discovery was pretty hard. You had to discover cool things on the internet _outside_ the internet: Magazines, real people, tv shows, etc. It was awful. Eventually, things converged around three solutions for content discovery. I'll call them search, social and popularity ranking.
 
-When using search, you know what you're looking for, you type it in a text box, you get what you asked for. It might sound trivial nowadays, but there were loads of companies competing in this space back in the 90s. Google was the first one to really crack it and it turned out quite well for them. Search takes intent, you have to know you want something so you can search for it.
+When using search, you know what you're looking for, you type it in a text box, you get it. It might sound trivial nowadays, but there were loads of companies competing in this space back in the 90s. Google was the first one to really crack it and it turned out quite well for them. Search requires intent, you have to know you want something so you can search for it.
 
 Popularity ranking, as I'm calling it, is websites like Reddit, Hacker News or 9gag. People post new things, other people vote. Whoever got most votes gets more visibility. Usually there's a mechanism to ensure old things slowly go out.  Popularity rankings content is consumed casually, you don't really know what to expect when you go there. You just go to the website to discover content.
 
@@ -46,7 +46,9 @@ Personal recommendations allow for a fundamentally different kind of content to 
 
 ## Too niche for popularity ranking and social, too casual for search
 
-Think about things like [this guy](https://www.youtube.com/channel/UCsCNU-ptlze2tqAJSDeVGNQ) making videos unclogging drains. I can't imagine the 500k+ subs in this channel arrived there searching for this kind of content on Youtube or getting recommendations from social media. It also doesn't have enough mass appeal to make it to the home page of Reddit. Yet, with a robust enough recommendations system, this channel found more than half a million interested subscribers. The most watched video has more than 20M views!
+Think about things like [this guy](https://www.youtube.com/channel/UCsCNU-ptlze2tqAJSDeVGNQ) making videos unclogging drains. I can't imagine the 500k+ subs in this channel arrived there searching for this kind of content on Youtube or getting recommendations from social media. It also doesn't have enough mass appeal to make it to the home page of Reddit.
+
+Yet, with a robust enough recommendations system, this channel found more than half a million interested subscribers. The most watched video has more than 20M views!
 
 The same is true for other channels like this one for oddly pleasant [tool restoration videos](https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw) or the also oddly pleasant [videos of clay houses built by hand ](https://www.youtube.com/watch?v=DEobiCzGEvE).
 
