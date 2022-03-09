@@ -9,7 +9,51 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Mar 2022 14:34:37 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 20:40:05 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I live in the country with the most expensive Apple products on the planet. I&#39;ll tell you what it&#39;s like</title>
+      <link>https://vaghetti.dev/posts/macs/</link>
+      <pubDate>Tue, 08 Mar 2022 20:40:05 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/macs/</guid>
+      <description>I live in Brazil. Brazil is a developing country. It is definitely not a rich country, but it is definitely not among the poorest either. We are placed on 84th in human development index rankings. You will find Brazil similarly in the middle of other rankings like per-capita income, education or life expectancy.
+There is, however, one ranking where Brazil is a solid 1st: Having expensive Macs and other apple products.</description>
+      <content:encoded><![CDATA[<p>I live in Brazil. Brazil is a developing country. It is definitely not a rich country, but it is definitely not among the poorest either. We are placed on 84th in human development index <a href="https://en.wikipedia.org/wiki/List_of_countries_by_Human_Development_Index#Countries">rankings</a>. You will find Brazil similarly in the middle of other rankings like per-capita income, education or life expectancy.</p>
+<p>There is, however, one ranking where Brazil is a solid 1st: Having expensive <a href="https://themacindex.com">Macs and other apple products</a>. We are not talking about prices relative to local income or anything, if you get local iPhone or Apple Watch prices on the Apple store and convert them to USD, you get the highest in the planet. Of course, it gets worse when average Brazilian income is taken into account.</p>
+<h2 id="why-is-apple-stuff-so-expensive-in-here">Why is Apple stuff so expensive in here?</h2>
+<p>A lot of reasons are thrown around when discussing why this is the case. Some people will blame taxes, but Macs here are much more expensive than other countries with higher total taxes.</p>
+<p>This problem is not particular to Apple. All electronics in Brazil are unusually expensive, but Apple is still consistently among the worst offenders. It is a very complex question with lots of confounding for which I won&rsquo;t be able to provide any interesting new point of view. I do want, however, to talk a bit about the societal consequences of these specially high prices.</p>
+<h2 id="iphones-as-a-status-symbol">iPhones as a status symbol</h2>
+<p>This is what I get on google shopping when I search for &ldquo;iPhone case&rdquo; in portuguese:</p>
+<p><img loading="lazy" src="/macs/cases-br.png" alt="cases-br"  />
+</p>
+<p>Notice the prominence of the Apple logo? It has to be there even in the non-transparent cases. I am not going to say this is a very consistent trend. It is not even consistent among different shopping websites in Brazil, but it is still a good representation. Some cases go as far as having an actual hole so the apple logo is shown:</p>
+<p><img loading="lazy" src="/macs/case-hole.png" alt="cases-hole"  />
+</p>
+<p>For comparison, here is what I get on amazon UK when searching for &ldquo;iPhone case&rdquo;</p>
+<p><img loading="lazy" src="/macs/cases-uk.png" alt="cases-uk"  />
+</p>
+<p>See the difference? I had to scroll trough 8 pages in Amazon to find a single case with a hole for the Apple logo.</p>
+<p>Yes, wealth signalling using apple devices is not <a href="https://www.wsj.com/articles/why-apples-imessage-is-winning-teens-dread-the-green-text-bubble-11641618009">exclusive to Brazil</a>, but things here are taken to the next level. I had friends ask me to take pictures of them using my iPhone because people would notice the higher quality picture on their Tinder profile and assume they had an iPhone.</p>
+<p>Even though iPhones are expensive compared to competitor phones, they are still not that expensive in absolute numbers, so iPhones are still a common everyday sight, even if you hardly see people using latest-gen models. Lots of people buy used iPhones too. It is such a big market that there are shops that specialize specifically in buying and selling used iPhones.</p>
+<h2 id="macs-as-a-workplace-differentiator">Macs as a workplace differentiator</h2>
+<p>This is a real part of an offer I got on LinkedIn:</p>
+<blockquote>
+<p>&hellip;</p>
+<p><em>Additionally, for the month of July, we&rsquo;re giving brand new MacBook Pros to new hires. Just stay with the company for two years, and the MacBook is yours to keep.</em></p>
+<p>&hellip;</p>
+</blockquote>
+<p>Even with comparatively high local developer salaries, buying a Mac here is mostly doable but hardly ever financially sensible. A 13 inch M1 MacBook Pro with 16GB of RAM here will cost you 2-6 entire months of an average developer wage (pre-tax).</p>
+<p>Whenever a developer in one of my friend circles says he/she&rsquo;s got a new job, the question of which computer they got inevitably pops up rather soon in the conversation. Saying your employer gave you a Mac for work will usually be received with raised eyebrows and more interested questions.</p>
+<h2 id="so-overall-what-is-it-like">So, overall, what is it like?</h2>
+<p>&hellip; Not that different? Sure, the percentage of the local population who could never hope to afford buying a Mac or iPhone in their lives is much bigger than it is in a wealthy country. But when asked about it, what you will hear about Apple products from most people in Brazil will be along the lines of:</p>
+<blockquote>
+<p><em>&ldquo;Yeah, Apple&rsquo;s products are pretty good, probably the best depending on what you need from them, but at the end of the day they are not that different from the cheaper alternatives and not really worth the extra money unless you have a lot to spare&rdquo;</em>.</p>
+</blockquote>
+<p>Which, it seems to me, is pretty much what you are going to hear from most people about Apple products anywhere in the world. I am obviously talking about the general population here and not software developers, these tend either love or hate apple products with very few having a dispassionate view like the one above.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How did everyone&#39;s YouTube recommendations get so eerily specific?</title>
       <link>https://vaghetti.dev/posts/nichecasual/</link>
