@@ -1,7 +1,7 @@
-{{if not .IsHome}}
 <footer class="footer">
     <div style=" float: left">
-        <applause-button style="width: 64px; height: 64px; color: var(--content)" multiclap="true" />
+        <applause-button style="width: 64px; height: 64px; color: var(--content)" multiclap="true"
+            url="{{ .Permalink }}" />
     </div>
     <div>
         <h2>Want to get notified about future posts?</h2>
@@ -11,4 +11,3 @@
         <h2>Wanna share your thoughts? <a href="/">Get in touch</a></h2>
     </div>
 </footer>
-{{end}}
