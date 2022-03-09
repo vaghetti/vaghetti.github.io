@@ -1,5 +1,5 @@
 ---
-title: "I live in the country with the most expensive Apple products on the planet. I'll tell you what it's like"
+title: "I live in the country with the most expensive Apple products on the planet. Here's what it is like in here"
 date: 2022-03-08T20:40:05-03:00
 draft: false
 ---
