@@ -9,7 +9,50 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Mar 2022 23:45:10 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 13:29:36 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seeking That Sweet Sweet Vim Joy</title>
+      <link>https://vaghetti.dev/posts/vim1/</link>
+      <pubDate>Sun, 13 Mar 2022 13:29:36 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/vim1/</guid>
+      <description>Text editors are a funny piece of software. They are undeniably important. You can&amp;rsquo;t write any code without them1. Text editors are like the software engineer equivalent of a hammer for a woodworker: not the only tool we use, but one we&amp;rsquo;ll certainly use a lot during our entire careers.
+It would make sense, then, to invest as much time as possible trying to be as good as possible with text editors, right?</description>
+      <content:encoded><![CDATA[<p>Text editors are a funny piece of software. They are undeniably important. You can&rsquo;t write any code without them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+Text editors are like the software engineer equivalent of a hammer for a woodworker: not the only tool we use, but one we&rsquo;ll certainly use a lot during our entire careers.</p>
+<p>It would make sense, then, to invest  as much time as possible trying to be as good as possible with text editors, right? It is not that simple. Just like you can&rsquo;t be a great woodworker by just being extremely good with a hammer, you can&rsquo;t be a great software engineer by just being very good with a text editor. In fact, as engineers climb the seniority ladder, they tend to spend less and less time actually writing code, which further diminishes the expected returns of being good at editing text.</p>
+<p>There is one important difference, however, between hammering nails and using a text editor: <em>you can get better at hammering nails by just doing it</em>.
+A woodworker that has been in the business for decades will hardly ever hit his fingers with a hammer.
+An engineer can spend an entire career writing code and still be painfully inept at using his text editor of choice, using the most basic features that any text box on a browser would provide and nothing else.</p>
+<h2 id="its-not-about-productivity-its-about-joy">It&rsquo;s not about productivity, it&rsquo;s about joy</h2>
+<p>I strongly believe developers should seek to make their work tooling as <a href="/posts/joy">joyful</a> as possible. Pressing and holding backspace until an entire line of text is deleted doesn&rsquo;t bring joy.</p>
+<p>Getting better at editing text like having a 4k monitor. It won&rsquo;t allow you to deliver software any better or faster. You can type and read code perfectly fine on, say, a full HD monitor. But looking at text characters on a 4K monitor is just more enjoyable. It&rsquo;s like getting a next generation video game console. When you first play the new-generation games, they don&rsquo;t look that much better. But when you go back and play the old games again they look much worse than you remembered.</p>
+<p>Going beyond the basics with a text editor feels the same way. When you first start using multiple cursors to edit several lines at once, it feels nice but you don&rsquo;t make a big deal out of it. It is only much later when you&rsquo;re used to have multi-cursor editing and for some reason you can&rsquo;t use it that you realize how much better it is to have it.</p>
+<p>Once you&rsquo;re bitten, there&rsquo;s no way back. You&rsquo;ll start to mildly suffer when watching colleagues editing text inefficiently in zoom calls. I sometimes fail to restrain myself and just start yelling keyboard shortcuts at people I have more intimacy with. I know, I&rsquo;m a terrible person.</p>
+<h2 id="seeking-the-joy-of-vim">Seeking the joy of Vim</h2>
+<p>If you&rsquo;ve read this far, you&rsquo;re quite probably expecting me to start talking about the virtues of Vim or Emacs now. I&rsquo;m not going to do that. I&rsquo;ve never used any of these for anything other than some occasional file editing on some terminal I SSH&rsquo;d into. I&rsquo;m nothing but an average VSCode/IntelliJ Joe who really appreciates keyboard shortcuts and multi-cursor support at this point.</p>
+<p>I&rsquo;m planning to change that. If I&rsquo;m going to annoy my colleagues by telling them about shortcuts that will save them less than 5 minutes over the course of an entire day, I might as well just annoy them by telling them how much better Vim is instead.</p>
+<p>I read many times about the benefits of both Emacs and Vim, and tried to actually use them for work a couple times. In my previous attempts, my motivation quickly fizzled out as I struggled with all the new shortcuts and the notoriously poor on-boarding experience of both editors.</p>
+<p>This time, however, I&rsquo;m hoping to get past these initial hurdles by making my efforts public. Starting now, this and all future posts in this blog will be written using nvim.</p>
+<h2 id="the-rules">The rules</h2>
+<ul>
+<li><strong>Real nvim, no VSCode addons</strong>: I&rsquo;m going in cold turkey. This entire post was edited with my very basic Vim knowledge in neovim and nothing else.</li>
+<li><strong>No distros</strong>: I&rsquo;m not using any neovim distro with pre-installed addons of any sort. Just raw neovim, any addons will have to be added by me.</li>
+<li><strong>Hard mode</strong>: I re-mapped my arrow and other navigation keys to <code>Nop</code>. If I&rsquo;m going to use Vim, I&rsquo;m going to use it properly with HJKL.</li>
+<li><strong>Blog posts only &ndash; for now</strong>: I&rsquo;m not going to force myself to use vim for work. Not for now at least.</li>
+</ul>
+<p>That&rsquo;s it. I&rsquo;ll stick to these rules for a couple more posts and write my impressions. Maybe if things go well enough I&rsquo;ll also give it a shot at work too.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Not with an acceptable level of productivity at least.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>To understand what is wrong with the west, think of libraries</title>
       <link>https://vaghetti.dev/posts/libraries/</link>
