@@ -35,7 +35,7 @@ I'm not arguing here that advertisers shouldn't get to chose which publications 
 
 The obvious answer here is to just pay for journalism. As long as there are people who want to consume certain content, the content producer will have the money he needs to keep producing it. But of course, people are just not willing to pay for journalism anymore.  
 
-There are other interesting ideas in this space, some of them even using crypto. But I haven't seem any of them making any meaningful degree of success. We're still mostly split between paywalled content for a few publications with very high brand awareness, and free ad supported content for everything else. 
+There are other interesting ideas in this space. Some of them even make sensible use of crypto/blockchain. But I haven't seem any of them making any meaningful degree of success. We're still mostly split between paywalled content for a few publications with very high brand awareness, and free ad supported content for everything else. 
 
-I think journalism will still get a lot worse before it gets better. History shows us that from time to time, the majority is wrong. Advertisers will almost inevitably cater to the majority. 
+I think journalism will still get a lot worse before it gets better. History shows us that from time to time, the majority is wrong, and advertisers will almost inevitably cater to the majority. 
 
