@@ -1,5 +1,5 @@
 ---
-title: "We're being censored by marketers and everyone is just fine with it"
+title: "Marketers are censoring journalism and everyone is just fine with it"
 date: 2022-03-19T10:44:44-03:00
 draft: false 
 ---
