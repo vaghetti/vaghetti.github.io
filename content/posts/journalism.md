@@ -13,7 +13,7 @@ Journalism has always been at least partially funded by advertising. But adverti
 
 Back when people actually read newspapers, there were usually one to three relevant newspapers with national circulation, plus some other smaller ones on the city level. There were also some magazines if you wanted to target a more specific group. The introduction of television didn't change the math much. You get a few relevant national news channels, plus a few local ones, and cable for more niche content. 
 
-One important thing to note here is that both in print media and television, advertisers negotiated ads with the entire newspaper or TV channel, not with individual writers or shows. Advertisers had the ability to chose at which time slot/page their ads would show up, but they didn't have the possibility of denying funding to some specific show/writer your they didn't like without tarnishing their relationship with the whole channel/newspaper.   
+One important thing to note here is that both in print media and television, advertisers negotiated ads with the entire newspaper or TV channel, not with individual writers or shows. Advertisers had the ability to chose at which time slot/page their ads would show up, but they didn't have the possibility of denying funding to some specific show/writer they didn't like without tarnishing their relationship with the whole channel/newspaper.   
 
 ## How this dynamic changed with the web
 
