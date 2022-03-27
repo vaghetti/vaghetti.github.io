@@ -5,7 +5,7 @@ draft: false
 ---
 
 I started this personal blog a bit more than a month ago.
-It's been a really interesting experiment. Some posts even made it to the front page of hacker news.
+It has been a really interesting experiment. Some posts even made it to the front page of hacker news.
 Google analytics tells me this blog had about 46 thousand page views across all posts!
 
 Even with way more views than I was expecting,
