@@ -1,6 +1,6 @@
 ---
-title: "There is only one blogging platform that matters and it has a paywall"
-date: 2022-03-23T20:51:53-03:00
+title: "Can blogs still matter in the age of video?"
+date: 2022-03-27T20:47:00-03:00
 draft: false
 ---
 
@@ -100,7 +100,7 @@ but they don't offer none of the conveniences a blogging platform provides.
 That's it. These are all the options that you really have for starting a blog today.
 You're stuck between Medium's paywall and Substack's lack of content discovery.
 
-## The truth is there's just not that much money to be made with blogs
+## So, do blogs still matter?
 
 Like blogs now, podcasts were in a bit of a limbo some years ago.
 At some point, podcasters found out that posting videos of the podcast being recorded on YouTube worked really well.
