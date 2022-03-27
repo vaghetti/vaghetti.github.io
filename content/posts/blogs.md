@@ -1,5 +1,5 @@
 ---
-title: "There's is only one blogging platform that matters and it has a paywall"
+title: "There is only one blogging platform that matters and it has a paywall"
 date: 2022-03-23T20:51:53-03:00
 draft: false
 ---
