@@ -1,5 +1,5 @@
 ---
-title: "Can blogs still matter in the age of video?"
+title: "Do blogs still matter?"
 date: 2022-03-27T20:47:00-03:00
 draft: false
 ---
