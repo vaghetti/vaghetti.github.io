@@ -9,7 +9,68 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 21:30:00 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 11:54:27 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;You Don&#39;t Need to Trust Science Because You Can Test It.&#34; -  but Can You?</title>
+      <link>https://vaghetti.dev/posts/science/</link>
+      <pubDate>Sun, 10 Apr 2022 11:54:27 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/science/</guid>
+      <description>Consider TV weather forecasts &amp;ndash; Every day, someone will show up in your television and give you a prediction of what the weather is going to be like in your area over the next couple of days. Everyone knows weather forecasting is never 100% accurate. Sometimes it says it will rain, and it doesn&amp;rsquo;t. But they&amp;rsquo;ll mostly get it right so people listen to what the weather forecast says because it is useful.</description>
+      <content:encoded><![CDATA[<p>Consider TV weather forecasts &ndash; Every day, someone will show up in your television and give you a prediction of what the weather is going to be like in your area over the next couple of days.
+Everyone knows weather forecasting is never 100% accurate.
+Sometimes it says it will rain, and it doesn&rsquo;t.
+But they&rsquo;ll mostly get it right so people listen to what the weather forecast says because it is useful.
+If they got it wrong too often, people would just stop listening because it isn&rsquo;t useful.</p>
+<p>For everyone except scientists, their relation with science is very similar to that.
+They will listen to what scientists say and, over time, they will evaluate if what they say matches their perception of what is true.
+If they are perceived as wrong often, trust goes down.</p>
+<p><em>&ldquo;But that&rsquo;s wrong!&rdquo;</em> you might think; <em>&ldquo;If you disagree with science you should go test it and prove your point! Science has methodologies, experiments, peer review and so on! You should believe science based on its methods and data, not your biased and limited personal perception!&rdquo;</em> &ndash;
+But is that reasonable to ask that?</p>
+<p>Almost all of our scientific knowledge is:</p>
+<ul>
+<li>Written in English</li>
+<li>Requires loads of specialized knowledge to even understand</li>
+<li>Ranges from impractical all the way to completely impossible to reproduce</li>
+</ul>
+<p>And that&rsquo;s fine! Scientific papers are meant to be read and reproduced by other scientists, not the average person on the street.
+Even scientists themselves have to rely on trust for scientific fields outside their expertise.
+People don&rsquo;t have particle accelerators at home, nor deep learning GPUs or 1000s of people in their basement willing to double-blind test new drugs.</p>
+<h3 id="believing-science-is-a-matter-of-trust-too-just-like-news">Believing science is a matter of trust too, just like news</h3>
+<p>It is clear, then, that believing science is a matter of trusting institutions and not about actually understanding and reproducing science.
+The scientific community is, from this perspective, not very different from a TV channel reporting celebrity gossip.</p>
+<p>The methods are wildly different, but the way the message makes it to the average person is quite similar.
+Compare these two statements:</p>
+<ul>
+<li><em>&ldquo;Channel X reports that artist Y is having an affair with her lawyer&rdquo;</em></li>
+<li><em>&ldquo;University X scientists say pesticide Y increases cancer risk&rdquo;</em></li>
+</ul>
+<p>In both cases, you can&rsquo;t really verify the truth first hand.
+You can&rsquo;t just call Artist Y and ask him if he&rsquo;s having an affair just as much as you can&rsquo;t expose some group of people to some pesticide while giving the other group placebo and observe them for some time to see if they get cancer more often than the placebo group.</p>
+<p>Since it is not possible to actually understand and reproduce modern science, people need to pick institutions to trust.</p>
+<h3 id="choosing-institutions-to-trust">Choosing institutions to trust</h3>
+<p>And how should people pick these institutions?
+Unlike the weather forecast, people can&rsquo;t just compare the claims made by scientists to their personal experience to decide who to trust. Their sample data is just too small.</p>
+<p>Think about deciding to take a Covid vaccine or not.
+People can have very different personal experiences on whether vaccines work or not.
+Person A might know lots of different healthy young people who took the vaccine and still got it and died.
+Meanwhile, Person B might know several older people who took vaccines and survived an exposure.</p>
+<p>These personal experiences don&rsquo;t directly contradict the scientific consensus.
+The consensus simply says vaccines increase your odds of surviving, but they don&rsquo;t have a 100% success rate.
+Yet, if Person A is a regular reader of alternative alt-science news outlets, her personal experience would be perfectly consistent with her media outlets that say vaccines don&rsquo;t work.
+Her friends, family and trusted politicians probably also think the same way.</p>
+<p>In big enough numbers, the scientific consensus says it is clear that vaccines do reduce death rates.
+But looking at big numbers first-hand is something that only scientists get to do.
+For everyone else, it becomes a matter of trusting the institutions measuring and reporting death rates.</p>
+<h3 id="if-it-isnt-possible-to-see-what-is-true-to-decide-which-institution-to-trust-what-should-people-do">If it isn&rsquo;t possible to see what is true to decide which institution to trust, what should people do?</h3>
+<p>I can&rsquo;t really tell you which institutions to trust, but I hope to have persuaded you to show empathy.
+People can have completely different views, yet their views can be entirely consistent with the reality they experience and the news they get from the institutions they trust.
+Your climate change denier friend simply in another bubble.
+Don&rsquo;t call him stupid.
+He&rsquo;s probably still a nice guy.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>We need platform regulation</title>
       <link>https://vaghetti.dev/posts/platform-regulation/</link>
