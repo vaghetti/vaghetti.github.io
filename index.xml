@@ -9,7 +9,68 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Apr 2022 11:54:27 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jul 2022 11:16:29 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A better mental model for reasoning about Typescript types</title>
+      <link>https://vaghetti.dev/posts/typescript-types/</link>
+      <pubDate>Sat, 16 Jul 2022 11:16:29 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/typescript-types/</guid>
+      <description>I work in a pretty big Typescript code base on my day job. The one thing I see people struggling the most when learning it is the type system.
+Typescript types are rather special in that they exist during compile time but not during runtime. I believe it is a better mental model to think of them as type annotations than proper types like the ones you get in a language like Go or Java.</description>
+      <content:encoded><![CDATA[<p>I work in a pretty big Typescript code base on my day job.
+The one thing I see people struggling the most when learning it is the type system.</p>
+<p>Typescript types are rather special in that <em>they exist during compile time but not during runtime</em>.
+I believe it is a better mental model to think of them as type annotations than proper types like the ones you get in a language like Go or Java.</p>
+<p>Let me give an example in Go:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">MyType</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">A</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">B</span> <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">myFunction</span>(<span style="color:#a6e22e">input</span> <span style="color:#a6e22e">MyType</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">bytes</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">json</span>.<span style="color:#a6e22e">Marshal</span>(<span style="color:#a6e22e">str</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(string(<span style="color:#a6e22e">bytes</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In the example above, the Go type system guarantees whatever is passed into your function will have the <code>A</code> and <code>B</code> fields, they&rsquo;ll both be integers and no other field is going to be there. Anything else simply won&rsquo;t compile.</p>
+<p>For comparison, take a look at this similar piece Typescript code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">MyType</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">a</span>: <span style="color:#66d9ef">number</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">b</span>: <span style="color:#66d9ef">number</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">myFunction</span>(<span style="color:#a6e22e">input</span>: <span style="color:#66d9ef">MyType</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">input</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>If you&rsquo;re coming into Typescript from a strongly typed language background like me, you might assume these two pieces of code would offer similar guarantees to the <code>myFunction</code> function.
+That&rsquo;s not always the case in Typescript.
+Let&rsquo;s see some interesting things Typescript will allow you to do with this function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">b</span>: <span style="color:#66d9ef">2</span> }); <span style="color:#75715e">// works fine as expected, outputs {&#34;a&#34;:1,&#34;b&#34;:2}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">b</span>: <span style="color:#66d9ef">2</span>, <span style="color:#a6e22e">c</span>: <span style="color:#66d9ef">3</span> }); <span style="color:#75715e">//  Won&#39;t compile
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span>: <span style="color:#66d9ef">1</span>, <span style="color:#a6e22e">b</span>: <span style="color:#66d9ef">2</span>, <span style="color:#a6e22e">c</span>: <span style="color:#66d9ef">3</span> } <span style="color:#66d9ef">as</span> <span style="color:#a6e22e">MyType</span>); <span style="color:#75715e">// works fine, outputs {&#34;a&#34;:1,&#34;b&#34;:2,&#34;c&#34;:3}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>(<span style="color:#e6db74">&#39;im just a string!&#39;</span> <span style="color:#66d9ef">as</span> <span style="color:#a6e22e">MyType</span>); <span style="color:#75715e">// Won&#39;t compile, thankfully
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>((<span style="color:#e6db74">&#39;im just a string!&#39;</span> <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">unknown</span>) <span style="color:#66d9ef">as</span> <span style="color:#a6e22e">MyType</span>); <span style="color:#75715e">// Works fine, outputs &#34;im just a string!&#34;, but at this point it is quite obvious we&#39;re doing something wrong
+</span></span></span></code></pre></div><p>It really boils down to the behavior of the <code>as</code> keyword &ndash; <code>as</code> is <em>not</em> a cast.
+You can&rsquo;t cast anything in Typescript because there are no Typescript types in runtime!
+All <code>as</code> is doing is telling the Typescript compiler something like <em>&ldquo;relax, compiler, I know what I&rsquo;m doing.&rdquo;</em>.</p>
+<p>Here&rsquo;s what the compiled Javascript code for the functions above looks like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">b</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">2</span> }); <span style="color:#75715e">// works fine as expected, outputs {&#34;a&#34;:1,&#34;b&#34;:2}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">b</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">2</span>, <span style="color:#a6e22e">c</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span> }); <span style="color:#75715e">//  Won&#39;t compile
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>({ <span style="color:#a6e22e">a</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">b</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">2</span>, <span style="color:#a6e22e">c</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span> }); <span style="color:#75715e">// works fine, outputs {&#34;a&#34;:1,&#34;b&#34;:2,&#34;c&#34;:3}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>(<span style="color:#e6db74">&#39;im just a string!&#39;</span>); <span style="color:#75715e">// Won&#39;t compile, thankfully
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">myFunction</span>(<span style="color:#e6db74">&#39;im just a string!&#39;</span>); <span style="color:#75715e">// Works fine, outputs &#34;im just a string!&#34;, but at this point it is quite obvious you&#39;re doing something wrong
+</span></span></span></code></pre></div><p>All type annotations are simply removed in runtime.
+Typescript is only there until your program is compiled.
+After compilation, it is just plain old Javascript again.</p>
+<p>Because of this, in Typescript, your type checks are as good as you make them be.
+They&rsquo;re not a hard limitation imposed by the compiler like they are in Go.
+Typescript types more like hints to the rest of the code.
+At any point you can override them or simply use <code>any</code>.
+They&rsquo;re there to help you write code that works, but they don&rsquo;t change the program that will be actually executed.</p>
+<p>This is something that took me some time to wrap my head around &ndash; <strong>It is a better mental model to think of Typescript as a very advanced linter for Javascript with type syntax than to think of it as a proper typed language that gets compiled into Javascript</strong> &ndash; Most Typescript typing code you write <em>does not</em> get compiled into Javascript, it is just used for compilation checks and then removed. If you want to have real type checks in runtime using Typescript, you have to use <a href="https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards">type guards</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>&#34;You Don&#39;t Need to Trust Science Because You Can Test It.&#34; -  but Can You?</title>
       <link>https://vaghetti.dev/posts/science/</link>
@@ -157,17 +218,17 @@ I just want to spark a debate that I think we need to have as a society.</p>
 Are the existing laws adequate for platform businesses?
 Should the platform market just be left alone and competition will eventually control abuse?
 Am I just exaggerating? Perhaps what I refer to as abuse here is just standard business practice and nothing should be done about it?</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>Simple to describe doesn&rsquo;t necessarily mean they would be simple. I&rsquo;m just a programmer rambling about broad probably overly simplified ideas, I&rsquo;m not a lawyer!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p>Or offer terrible UX for users to pay for their service in some other place.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 ]]></content:encoded>
     </item>
     
@@ -328,14 +389,14 @@ An engineer can spend an entire career writing code and still be painfully inept
 <li><strong>Blog posts only &ndash; for now</strong>: I&rsquo;m not going to force myself to use vim for work. Not for now at least.</li>
 </ul>
 <p>That&rsquo;s it. I&rsquo;ll stick to these rules for a couple more posts and write my impressions. Maybe if things go well enough I&rsquo;ll also give it a shot at work too.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>Not with an acceptable level of productivity at least.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 ]]></content:encoded>
     </item>
     
@@ -346,7 +407,7 @@ An engineer can spend an entire career writing code and still be painfully inept
       
       <guid>https://vaghetti.dev/posts/libraries/</guid>
       <description>Here is an interesting thought exercise that I have been seeing around the internet for some time now:
- Think about libraries as a concept &amp;ndash; the government builds a huge building, buys loads of books from many different authors and allows everyone to just go there and read the books for free or some small fee. Sometimes you can even take the books to your home! &amp;ndash; Now imagine libraries didn&amp;rsquo;t exist and some politician came around proposing we create libraries exactly as they are.</description>
+Think about libraries as a concept &amp;ndash; the government builds a huge building, buys loads of books from many different authors and allows everyone to just go there and read the books for free or some small fee. Sometimes you can even take the books to your home! &amp;ndash; Now imagine libraries didn&amp;rsquo;t exist and some politician came around proposing we create libraries exactly as they are.</description>
       <content:encoded><![CDATA[<p>Here is an interesting thought exercise that I have been seeing around the internet for some time now:</p>
 <blockquote>
 <p>Think about libraries as a concept &ndash; the government builds a huge building, buys loads of books from many different authors and allows everyone to just go there and read the books for free or some small fee. Sometimes you can even take the books to your home! &ndash; Now imagine libraries didn&rsquo;t exist and some politician came around proposing we create libraries exactly as they are. What would you expect to happen?</p>
@@ -481,14 +542,14 @@ Although the game was pretty solid technologically when it was released, it was 
 <p>The game rewarded you for doing repetitive things with no real challenge. Players were punished to extreme extents due to completely silly things like being AFK or just being in the wrong place at the wrong time. Some high level player could simply decide they didn&rsquo;t like your clothes and <a href="https://tibia.fandom.com/wiki/Rooking">rook you</a>. If there&rsquo;s a word for it, there is a story behind it.</p>
 <p>I&rsquo;m not saying these changes are bad. If I was to start playing Tibia today without being influenced by nostalgia, I&rsquo;m sure I would quickly drop it without thinking much of it.</p>
 <p>Nonetheless, these game design decisions created a really unique virtual world that provided very meaningful experiences to a lot of people, like me. And I just can&rsquo;t shake off the feeling our lives are a tiny bit worse because that world is gone and it seems like it can&rsquo;t be created again.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>This was only the case in PVP servers, players also had the choice of playing in non-PVP worlds if they chose to.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 ]]></content:encoded>
     </item>
     
@@ -560,14 +621,14 @@ When writing, a diary is a great tool for organizing thoughts and making decisio
 <p>Heck, we as a society figured out <em>dating</em> on the internet. Some people have entire romantic relationships with people they&rsquo;ve only known virtually and they&rsquo;re happy. I&rsquo;m sure we can figure out meaningful relationships with work colleagues.</p>
 <p>Maybe it will take shape as a Slack alter-ego? A group chat app that is invitation-only. There would be no single official company profile, just some profiles created by employees where they can invite one another. Maybe some smaller private chat rooms? A central place where you can send internal tweets to everyone in the company? Messages that disappear over time? Optional anonymity? Am I just describing Discord? The solution space is quite big.</p>
 <p>Chances are, we won&rsquo;t figure this out on the first try. The first dating services looked a lot like facebook, in the end it turned out it was much better to just brute-force it and show people hundreds of pictures of strangers and ask if they look interesting.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>By the same logic, I was making them <em>dumber</em>. I would rather think it wasn&rsquo;t <em>quite</em> like osmosis.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 ]]></content:encoded>
     </item>
     
