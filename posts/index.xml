@@ -9,7 +9,32 @@
       <link>https://vaghetti.dev/apple-touch-icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Jul 2022 11:16:29 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:44:00 -0300</lastBuildDate><atom:link href="https://vaghetti.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is it ethical to have children if you believe their lives will suck?</title>
+      <link>https://vaghetti.dev/posts/children/</link>
+      <pubDate>Tue, 23 Apr 2024 00:44:00 -0300</pubDate>
+      
+      <guid>https://vaghetti.dev/posts/children/</guid>
+      <description>I’m currently 30 years old. A lot of things start happening around this age range: Sex and the city starts being funny, you start to know what mortgages and Minoxidil are, and your friends start having kids — on purpose(!!!).
+And just like having kids, talking about the decision of having kids also becomes a common thing. Don’t get me wrong, the demographic implosion is just as real among my friend group as anywhere else.</description>
+      <content:encoded><![CDATA[<p>I’m currently 30 years old. A lot of things start happening around this age range: <em>Sex and the city</em> starts being funny, you start to know what mortgages and Minoxidil are, and your friends start having kids — <em>on purpose(!!!).</em></p>
+<p>And just like having kids, talking about the decision of having kids also becomes a common thing. Don’t get me wrong, the demographic implosion is just as real among my friend group as anywhere else. Most of them don’t plan on having kids. But now they <em>really thought about it</em> and mostly concluded they don’t want kids, whereas previously they simply didn’t even think about it.</p>
+<p>A lot of very compelling reasons are usually presented when justifying this decision, lack of money being the first one, followed by not having a proper house or just not feeling ready, but another frequent and more disturbing reason also shows up somewhat frequently: <strong>They don’t want to have kids because they believe the future is going to suck.</strong></p>
+<p>And I get them, most things that make my 30 year old life harder today only seem to be getting worse, at ever accelerating rates — housing crisis, global warming, and other well-known consequences of late capitalism — all of these seem to be here to stay and will probably be much worse by the time these children become adults.</p>
+<p>I believe having children is a deeply personal decision, and it is only natural to take what you think the child’s life will look like into account when making this decision. Well, personal decisions are boring, you can’t argue about them on the Internet. And this is an inevitably personal decision because no one knows the future with any meaningful degree of certainty.</p>
+<p>Still, it is an interesting question, even if a sad one to ponder about, <em>if we could eliminate the uncertainty of the future factor, if we could know for sure that the future would be horrible, would it be ethical to have children?</em> How bad does the the future have to be for it to be ethically <em>wrong</em> to have children?</p>
+<h2 id="is-it-ethical-to-have-children-if-the-future-is-_certainly_-_bad_">Is it ethical to have children if the future is <em>certainly</em> <em>bad</em>?</h2>
+<p>Let’s start with a simple thought exercise: If you were cursed by a witch so that any child you bring onto the planet would live an absolutely miserable life, inescapably suffering every single second of its life without experiencing a single joyful or happy moment — an endless, uninterrupted stream of meaningless suffering, pain and sickness followed by a horrible death. Would it be ethical to bring this child into the world?</p>
+<p>I think the vast majority of people would answer no to this question. The reasoning usually goes along the lines of “<em>Well, if I could chose between being born to live this life vs not being born at all, I would chose not to be born</em>”. This is quite far from a properly structured logical argument, and any actual philosopher reading this is probably offended at this point but… It <em>feels quite unethical?</em></p>
+<p>The point I’m trying to make with this is that there is a point where the expected suffering in a child’s life makes it unethical to give birth to said child. The hard question is <em>where</em> this point is.</p>
+<p>So where is it? At what point does it become unethical to have children? I don’t know! I’ve been thinking about this for quite some time and I couldn’t reach any intellectually satisfying answer. Would a single moment of joy make up for an otherwise miserable life like the one from the thought exercise? Probably not if that moment of joy is eating a chocolate bar, but maybe if that moment of joy is finding a universal cure for cancer? Even without the future uncertainty factor, it is still very personal.</p>
+<p>All this pondering led me into at least one valuable — albeit personal — insight: <strong>Life could be a whole lot worse and I would still choose to live it</strong>. Sure, global warming and capitalism will make being 30 in 2054 probably worse than being 30 in 2024, but being 30 in 2054 will still probably be better than being 30 in the 1800s or the 1500s, and I would still choose to live these worse lives over not living at all.</p>
+<p>Does that mean I’m planning on having children? Nope, can&rsquo;t afford it.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>A better mental model for reasoning about Typescript types</title>
       <link>https://vaghetti.dev/posts/typescript-types/</link>
