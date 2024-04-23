@@ -1,5 +1,5 @@
 ---
-title: 'Is it ethical to have children if you believe their lives will suck?'
+title: "Is it ethical to have children if you believe their lives will suck?"
 date: 2024-04-23T00:44:00-03:00
 draft: false
 ---
